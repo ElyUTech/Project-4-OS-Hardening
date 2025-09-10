@@ -1,7 +1,7 @@
 # OS Hardening
 
 ## Objective:
-Examine the web server's logs to investigate connection timeout error messages.
+Examine the web server's logs to investigate connection timeout error messages
 
 ## Part 1: Scenario
 
