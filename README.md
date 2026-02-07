@@ -3,7 +3,13 @@
 ## Objective:
 Examine the web server's logs to investigate connection timeout error messages
 
-## Part 1: Scenario
+## Security Concepts:
+Network Troubleshooting and Diagnostics, Network Packet Capture and Analysis, Incident Response and Forensics Basics, Threat Intelligence, Root Cause Analysis
+
+## Tools Used:
+tcpdump
+
+## Scenario:
 
 You are a cybersecurity analyst for yummyrecipesforme.com, a website that sells recipes and cookbooks. A former employee has decided to lure users to a fake website with malware.
 
@@ -23,7 +29,7 @@ Your job is to document the incident in detail, including identifying the networ
 
 
 
-## Part 2: Tcpdump Traffic Log
+## Part 1: Tcpdump Traffic Log
 14:18:32.192571 IP your.machine.52444 > dns.google.domain: 35084+ A? yummyrecipesforme.com. (24)\
 14:18:32.204388 IP dns.google.domain > your.machine.52444: 35084 1/0/0 A 203.0.113.22 (40)
 
@@ -47,6 +53,6 @@ Your job is to document the incident in detail, including identifying the networ
 …<a lot of traffic on the port 80>... 
 
 
-## Part 3: Security Incident Report
+## Part 2: Security Incident Report
 ![](https://github.com/ElyUTech/Project-4-OS-Hardening-/blob/main/project-4b-os-hardening-security-incident-report-1.png)
 ![](https://github.com/ElyUTech/Project-4-OS-Hardening-/blob/main/project-4b-os-hardening-security-incident-report-2.png)
